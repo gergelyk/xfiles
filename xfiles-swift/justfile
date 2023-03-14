@@ -1,0 +1,3 @@
+build:
+    #docker run --rm -it -v $(pwd):/prj -w /prj swift bash -c 'swiftc xfiles.swift'
+    swiftc xfiles.swift

@@ -1,0 +1,2 @@
+build:
+    coconut --target 3.8 xfiles.coco

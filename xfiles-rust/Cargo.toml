@@ -1,0 +1,9 @@
+[package]
+authors = ["gergelyk <grzegorz.krason@gmail.com>"]
+edition = "2018"
+name = "xfiles"
+version = "0.1.0"
+[dependencies]
+atty = "*"
+expanduser = "*"
+itertools = "*"

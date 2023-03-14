@@ -1,0 +1,3 @@
+install:
+    # install deps of the current project
+    sudo luarocks make --only-deps
