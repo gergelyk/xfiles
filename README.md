@@ -7,18 +7,16 @@ to implement copy/paste and other operations. See Integration examples below.
 
 For educational purposes project has been implemented in multiple languages:
 
-```
-Implementation  Status
---------------  ------
-xfiles-coconut  Finished
-xfiles-elvish   Finished
-xfiles-haskell  Finished
-xfiles-julia    Finished
-xfiles-lua      Finished
-xfiles-python   Finished, reference implementation
-xfiles-rust     Finished, see known issues
-xfiles-swift    Not finished
-```
+| Implementation |  Status                            |
+|----------------|------------------------------------|
+| xfiles-coconut | Finished                           |
+| xfiles-elvish  | Finished                           |
+| xfiles-haskell | Finished                           |
+| xfiles-julia   | Finished                           |
+| xfiles-lua     | Finished                           |
+| xfiles-python  | Finished, reference implementation |
+| xfiles-rust    | Finished, see known issues         |
+| xfiles-swift   | Not finished                       |
 
 All implementations are tested against the same set of tests (see `tasks.py`).
 
@@ -43,7 +41,7 @@ $ echo 'baz\nqux' | xfiles -
 $ xfiles --
 
 # Print path to the list
-# $ xfiles ++
+$ xfiles ++
 ```
 
 ## Integration
